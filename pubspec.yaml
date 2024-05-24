@@ -1,0 +1,45 @@
+name: hiring_test
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+dependencies:
+  auto_height_grid_view: ^1.0.0
+  cloud_firestore: ^4.17.3
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  firebase_core: ^2.31.0
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.20.5
+  flutter_rating_bar: ^4.0.1
+  flutter_riverpod: ^2.5.1
+  flutter_svg: ^2.0.10+1
+  freezed_annotation: ^2.4.1
+  hooks_riverpod: ^2.5.1
+  json_annotation: ^4.9.0
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+
+
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/svg/
